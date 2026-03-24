@@ -1,13 +1,17 @@
 # C_Module-2
-EXPNO: 2a) C PROGRAM TO PRINT THE STRING "PLACEMENT" N NUMBER OF TIMES.
-AIM:
+
+# EXPNO: 2a) C PROGRAM TO PRINT THE STRING "PLACEMENT" N NUMBER OF TIMES.
+
+# AIM:
 To write a C program to print the string "PLACEMENT" n number of times.
 
-ALGORITHM:
-Take the input from the user using scanf function.
-Use for loop to print the string n number of times.
-Print the string using printf function.
-PROGRAM:
+# ALGORITHM:
+1. Take the input from the user using scanf function.
+2. Use for loop to print the string n number of times.
+3. Print the string using printf function.
+   
+# PROGRAM:
+```
 #include<stdio.h>
 int main()
 {
@@ -17,22 +21,26 @@ int main()
     printf("PLACEMENT\n");
   return 0;
 }
-OUTPUT:
+```
+
+# OUTPUT:
 <img width="1093" height="267" alt="image" src="https://github.com/user-attachments/assets/83844d38-6bb4-4ebf-b02d-949c3ec6908c" />
 
-
-RESULT:
+# RESULT:
 Thus, the program is verified successfully.
 
-EXPNO: 2b) C PROGRAM TO PRINT THE TRIANGULAR STAR PATTERN USINF LOOP.
-AIM:
+# EXPNO: 2b) C PROGRAM TO PRINT THE TRIANGULAR STAR PATTERN USINF LOOP.
+
+# AIM:
 To write a C program to print the triangular star pattern using loop.
 
-ALGORITHM:
-Take the input from the user using scanf function.
-Use for loop to print the pattern the input number of times.
-Print the pattern using printf function.
-PROGRAM:
+# ALGORITHM:
+1. Take the input from the user using scanf function.
+2. Use for loop to print the pattern the input number of times.
+3. Print the pattern using printf function.
+
+# PROGRAM:
+```
 #include<math.h>
 int main()
 {
@@ -48,22 +56,27 @@ int main()
   }
 return 0;
 }
-OUTPUT:
+```
+
+# OUTPUT:
 <img width="1102" height="344" alt="image" src="https://github.com/user-attachments/assets/1dc5c348-1ef1-47a9-8f22-b6f3dfbd2068" />
 
-RESULT:
+# RESULT:
 Thus, the program is verified successfully.
 
-EXPNO: 2c) C PROGRAM TO PERFORM MULTIPLICATION AND DIVISION OF A AND B VALUES USING FUNCTIONS.
-AIM:
+# EXPNO: 2c) C PROGRAM TO PERFORM MULTIPLICATION AND DIVISION OF A AND B VALUES USING FUNCTIONS.
+
+# AIM:
 To write a C program to perform multiplication and division of a and b values using functions.
 
-ALGORITHM:
-Declare two functions for multiplication and division with return types.
-Take the input from the user using scanf function.
-Inside main() function, call the functions.
-Print the values using printf function.
-PROGRAM:
+# ALGORITHM:
+1. Declare two functions for multiplication and division with return types.
+2. Take the input from the user using scanf function.
+3. Inside main() function, call the functions.
+4. Print the values using printf function.
+   
+# PROGRAM:
+```
 #include<stdio.h>
 #include<math.h>
 int Multiplication(int a,int b)
@@ -82,22 +95,27 @@ int main()
     printf("Division: %d",Division(a,b));
     return 0;
 }
-OUTPUT:
+```
+
+# OUTPUT:
 <img width="1103" height="270" alt="image" src="https://github.com/user-attachments/assets/1309bef5-4ca0-4f5c-a754-d0aa5de26263" />
 
-RESULT:
+# RESULT:
 Thus, the program is verified successfully.
 
-EXPNO: 2d) C PROGRAM TO FIND THE SUM OF DIGITS USING FOR LOOP.
-AIM:
+# EXPNO: 2d) C PROGRAM TO FIND THE SUM OF DIGITS USING FOR LOOP.
+
+# AIM:
 To write a C program to find the sum of digits using for loop.
 
-ALGORITHM:
-Take the input from the user using scanf function.
-Declare sum=0.
-Using for loop, write the formula for sum calculation.
-Print the value using printf function.
-PROGRAM:
+# ALGORITHM:
+1. Take the input from the user using scanf function.
+2. Declare sum=0.
+3. Using for loop, write the formula for sum calculation.
+4. Print the value using printf function.
+
+# PROGRAM:
+```
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -111,22 +129,27 @@ int main()
     printf("%d",sum);
     return 0;
 }
-OUTPUT:
+```
+
+# OUTPUT:
 <img width="1097" height="303" alt="image" src="https://github.com/user-attachments/assets/f8df7c76-2bd5-491b-80b9-0884fbd312ca" />
 
-RESULT:
+# RESULT:
 Thus, the program is verified successfully.
 
-EXPNO: 2e) C PROGRAM TO DISPLAY THE VALUE USING AUTO STORAGE CLASS WITHOUT USING LOOPING STATEMENTS.
-AIM:
+# EXPNO: 2e) C PROGRAM TO DISPLAY THE VALUE USING AUTO STORAGE CLASS WITHOUT USING LOOPING STATEMENTS.
+
+# AIM:
 To write a C program to display the value using auto storage class without using looping statements.
 
-ALGORITHM:
-Delcare a void function and arguments with return types.
-Declare the auto sorage class variable inside the function.
-In main() function, take the inputs from the user using scanf function.
-Call the function.
-PROGRAM:
+# ALGORITHM:
+1. Delcare a void function and arguments with return types.
+2. Declare the auto sorage class variable inside the function.
+3. In main() function, take the inputs from the user using scanf function.
+4. Call the function.
+   
+# PROGRAM:
+```
 #include <stdio.h>
 #include<math.h>
 void display(int a,int b,int c)
@@ -143,8 +166,10 @@ int main()
     display(num1,num2,num3);
     return 0;
 }
-OUTPUT:
+```
+
+# OUTPUT:
 <img width="1077" height="270" alt="image" src="https://github.com/user-attachments/assets/faf6f00b-aaf1-4cd5-ac0b-775afa34997f" />
 
-RESULT:
+# RESULT:
 Thus, the program is verified successfully.
